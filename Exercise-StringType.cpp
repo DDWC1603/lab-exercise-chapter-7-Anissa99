@@ -1,31 +1,32 @@
-//compare two strings
-//complete the program below. 
+//Nurul Anissa binti Huzaini
+//A17DW4087
 
+#include <string>
 #include <iostream>
+using namespace std;
 
 int main()
 {
+    string userName;
+	string myName="Anissa";
 
-	string myName="Mike";//write your name there.
-	//make a while loop until user input 'quit' to exit/end the program
-
-	(true)
+	while(true)
 	{
+		cout << "Enter your name (or 'quit' to exit): ";
+		cin >> userName;
 		
-		string userName;
-		//get the user input for string.
-		if(userName=="Abu")
-	       	{
-			cout<<"Hey Abu!"<<endl;
+		if(userName == "Fawwaz")
+	    {
+			cout<<"Hey Fawwaz!"<<endl;
 		}
-		else if(userName=="quit")
+		else if(userName == "quit")
 		{
 			cout<<endl;
 			break;
 		}
 		else
 		{
-			cout<<"Aha! its "<<myName<<endl;
+			cout<<"Aha! It's "<<myName<<endl;
 		}
 	}
 	return 0;
