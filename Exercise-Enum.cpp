@@ -1,11 +1,15 @@
+//Nurul Anissa binti Huzaini
+//A17DW4087
 
+#include <iostream>
+using namespace std;
+enum minggu {sun,mon,tue,wed,thu,fri,sat};
 
-//if the day is sunday, what day is it?
-//write your code using enum and Sunday is your default 'day'
-
-minggu hariIni;
-
-cout<<"Hari ke-"hariIni+1;
-return 0;
-
+main(void)
+{
+  minggu hariIni;
+  hariIni = sun;
+  cout << "Sunday is "<<hariIni+1<<" day";
+  return 0;
+}
 
